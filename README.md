@@ -24,9 +24,9 @@ Tener instalado Python 3 y las librerías necesarias:
 ```bash
 pip install flask requests
 ```
-*(Nota: `sqlite3` y `werkzeug` ya vienen integradas con la instalación estándar de Python y Flask).*
+*(`sqlite3` y `werkzeug` ya vienen integradas con la instalación estándar de Python y Flask).*
 
-*(Nota de configuración: Para facilitar la ejecución y corrección directa de esta práctica, `secret_key` y `debug=True` se encuentran definidos dentro de `servidor.py`; en un entorno de producción real se gestionarían mediante variables de entorno).*
+*(Para facilitar la ejecución y corrección, `secret_key` y `debug=True` se encuentran definidos dentro de `servidor.py`, en un entorno de producción real se gestionarían mediante variables de entorno).*
 
 ---
 
