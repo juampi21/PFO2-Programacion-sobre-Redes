@@ -71,14 +71,17 @@ Se abrirá un menú interactivo con las siguientes opciones:
 
 ### 1. Registro de usuario (`POST /registro`)
 Se probó el registro de un nuevo usuario (`Juampi`) enviando sus datos desde el cliente de consola:
+
 ![Registro exitoso](capturas/Captura%201%20-%20Registro%20exitoso.png)
 
 ### 2. Inicio de sesión (`POST /login`)
 Se validaron las credenciales contra el hash almacenado en la base de datos SQLite y se obtuvo la confirmación de inicio de sesión:
+
 ![Login exitoso](capturas/Captura%202%20-%20Login%20exitoso.png)
 
 ### 3. Consulta de tareas y bienvenida HTML (`GET /tareas`)
 Se consultó el endpoint protegido con la sesión activa desde el cliente y se visualizó la página de bienvenida personalizada renderizada en el navegador:
+
 ![HTML de bienvenida renderizado](capturas/Captura%203%20-%20HTML%20de%20bienvenida%20renderizado.png)
 
 ---
